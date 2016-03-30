@@ -10,7 +10,7 @@ int main() {
 	CImg<unsigned char> _img2 = egdeExtract(img2);
 
 	_img2.display("Image 2");
-
+	/*
 	CImg<unsigned char> img3 = CImg<unsigned char>("Dataset/3.bmp");
 	CImg<unsigned char> _img3 = egdeExtract(img3);
 
@@ -30,6 +30,6 @@ int main() {
 	CImg<unsigned char> _img6 = egdeExtract(img6);
 
 	_img6.display("Image 6");
-
+	*/
 	return 0;
 }
